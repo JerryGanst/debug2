@@ -12,6 +12,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableAspectJAutoProxy
 @EnableAsync
 @EnableCaching
+@EnableScheduling
 public class AiApiApplication {
 
     public static void main(String[] args) {
